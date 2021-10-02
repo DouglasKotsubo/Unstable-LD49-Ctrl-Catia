@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Credits.unity
     guid: bf43abd4f11285d43b3f63e0a5877bef
   - enabled: 1
-    path: Assets/Scenes/DialogueTest.unity
+    path: Assets/Scenes/Experimental/DialogueTest.unity
     guid: 66918bdb5e536544da6c250195a83453
   m_configObjects: {}
