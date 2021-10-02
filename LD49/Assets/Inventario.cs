@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Inventario : MonoBehaviour
 {
+    int count = 0;
     public RectTransform content;
     public List <GameObject> itens;
     public class item1
@@ -20,11 +21,9 @@ public class Inventario : MonoBehaviour
 
     public void DesenharItens()
     {
-        if (content.childCount < itens.Count)
-        {
-             GameObject item2 = Instantiate (itens[content.childCount], content.position, Quaternion.identity) as GameObject;
+             GameObject item2 = Instantiate (itens[count], content.position, Quaternion.identity) as GameObject;
              item2.transform.parent = content.transform;
-        }
+             count++;
     }
     void Start()
     {
