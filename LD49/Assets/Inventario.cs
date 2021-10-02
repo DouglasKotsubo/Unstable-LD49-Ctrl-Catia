@@ -33,6 +33,7 @@ public class Inventario : MonoBehaviour
         public bool collected;
         public Sprite imagem;
         public float imageResizeScale;
+        public Vector3 imageOffset;
     };
 
     public element[] allItens;
@@ -47,9 +48,15 @@ public class Inventario : MonoBehaviour
         coletado.collected = true;
         itemSlots[slotCounter].sprite = coletado.imagem;
         RectTransform current = itemSlots[slotCounter].gameObject.GetComponent<RectTransform>();
-        current.localScale = current.localScale * imageResizeScale;
-
+        current.localScale = current.localScale * coletado.imageResizeScale;
+        current.localPosition += coletado.imageOffset;
         slotCounter++;
+    }
+
+    void Update(){
+        if (Input.GetKeyDown(KeyCode.E)){
+            addItem(0);
+        }
     }
 
 }

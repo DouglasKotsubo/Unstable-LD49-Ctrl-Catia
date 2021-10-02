@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OpenInventory : MonoBehaviour
 {
-    public Transform inventoryMenu;
+    public GameObject inventoryMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,16 +14,16 @@ public class OpenInventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("i"))
+        if (Input.GetKeyDown(KeyCode.I))
         {
-            if (inventoryMenu.gameObject.activeSelf)
+            if (inventoryMenu.activeSelf)
             {
-                inventoryMenu.gameObject.SetActive(false);
+                inventoryMenu.SetActive(false);
                 Time.timeScale = 1;
             }
             else
             {
-                inventoryMenu.gameObject.SetActive(true);
+                inventoryMenu.SetActive(true);
                 Time.timeScale = 0;
             }
         }
