@@ -1,0 +1,2184 @@
+fileFormatVersion: 2
+guid: b9d14e5fd7d16164dbacabfa205bb03f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7849928133290241796
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_0
+  - first:
+      213: 6494087690004440672
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_1
+  - first:
+      213: 3387248479742622742
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_2
+  - first:
+      213: 8237172262348972368
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_3
+  - first:
+      213: 6387100064483795701
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_4
+  - first:
+      213: 7962434453845173412
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_5
+  - first:
+      213: 2074195672137785187
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_6
+  - first:
+      213: -6621930652272020409
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_7
+  - first:
+      213: -3182829977280388688
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_8
+  - first:
+      213: 5151366132531297956
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_9
+  - first:
+      213: 1385059254433831308
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_10
+  - first:
+      213: 1242366935451014082
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_11
+  - first:
+      213: -6479136845756022408
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_12
+  - first:
+      213: -4081789749715100754
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_13
+  - first:
+      213: -8747941503586337741
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_14
+  - first:
+      213: -8670117008953143501
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_15
+  - first:
+      213: -3387891692494533446
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_16
+  - first:
+      213: -1641583778813997615
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_17
+  - first:
+      213: -2987708151868573219
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_18
+  - first:
+      213: 3945447193389566805
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_19
+  - first:
+      213: -1407208194862971238
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_20
+  - first:
+      213: 8504679093490538196
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_21
+  - first:
+      213: 348958531856348590
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_22
+  - first:
+      213: -8186597705692539603
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_23
+  - first:
+      213: 383120342961535901
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_24
+  - first:
+      213: -447979152873461445
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_25
+  - first:
+      213: 4286122499518146961
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_26
+  - first:
+      213: -8551897124891308541
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_27
+  - first:
+      213: -4336743473673386768
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_28
+  - first:
+      213: 7074912355524575942
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_29
+  - first:
+      213: 5836713982214795137
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_30
+  - first:
+      213: 8188027435867893009
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_31
+  - first:
+      213: -361316222726198847
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_32
+  - first:
+      213: -940991465779862803
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_33
+  - first:
+      213: 3951522594197845473
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_34
+  - first:
+      213: 2976110429880950022
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_35
+  - first:
+      213: -702529481187367233
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_36
+  - first:
+      213: -1383817960377787091
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_37
+  - first:
+      213: -6431387413022549080
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_38
+  - first:
+      213: 3515912900824189671
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_39
+  - first:
+      213: 7693093659569317302
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_40
+  - first:
+      213: -2185980329329715534
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_41
+  - first:
+      213: 462824396136977438
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_42
+  - first:
+      213: 8329110347960875581
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_43
+  - first:
+      213: -4692621464299461167
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_44
+  - first:
+      213: -8402911814841867819
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_45
+  - first:
+      213: 6148170234981258107
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_46
+  - first:
+      213: -5671791963156397378
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_47
+  - first:
+      213: 806686306487883394
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_48
+  - first:
+      213: -7378881992839160882
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_49
+  - first:
+      213: -8463232816020784003
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_50
+  - first:
+      213: 2544659157638489668
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_51
+  - first:
+      213: 852767359227861046
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_52
+  - first:
+      213: -7432122950340705713
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_53
+  - first:
+      213: 1488976642706319914
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_54
+  - first:
+      213: 1259101190794557925
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_55
+  - first:
+      213: 8093597686881321393
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_56
+  - first:
+      213: -2127155571442637226
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_57
+  - first:
+      213: -747678426129235147
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_58
+  - first:
+      213: 2371929275080184093
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_59
+  - first:
+      213: 6633687749293472103
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_60
+  - first:
+      213: -564373979278793451
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_61
+  - first:
+      213: -5655447534062171576
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_62
+  - first:
+      213: 2750011298385788322
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_63
+  - first:
+      213: 4061693140443995520
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_64
+  - first:
+      213: -5207820777121979761
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_65
+  - first:
+      213: -229366023582017170
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_66
+  - first:
+      213: 6205418614790303824
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_67
+  - first:
+      213: -5654812654572171904
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_68
+  - first:
+      213: 5906517576496041559
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_69
+  - first:
+      213: 3065809498662662877
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_70
+  - first:
+      213: -1185591565482131536
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_71
+  - first:
+      213: 6917582385317269224
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_72
+  - first:
+      213: 164949048551948732
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_73
+  - first:
+      213: -8352944191248666319
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_74
+  - first:
+      213: -6119035501491055573
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_75
+  - first:
+      213: 3956369782717717660
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_76
+  - first:
+      213: -8648091486171398573
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_77
+  - first:
+      213: -3622220692347662149
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_78
+  - first:
+      213: 2756451499346674665
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_79
+  - first:
+      213: 3128693269530319262
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_80
+  - first:
+      213: -708637891817787254
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_81
+  - first:
+      213: -1447943234260874416
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_82
+  - first:
+      213: 7321542890645581693
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_83
+  - first:
+      213: -237497412911172932
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_84
+  - first:
+      213: -2111696345878527240
+    second: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_85
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0d3e614f37f0390800000000000000
+      internalID: -7849928133290241796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 447
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066a3fec852af1a50800000000000000
+      internalID: 6494087690004440672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c7a01cb8ce10f20800000000000000
+      internalID: 3387248479742622742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 371
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051e20bb780505270800000000000000
+      internalID: 8237172262348972368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 303
+        width: 240
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f26e681ba983a850800000000000000
+      internalID: 6387100064483795701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 295
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4e5c0f2ff308e60800000000000000
+      internalID: 7962434453845173412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 240
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fdc6869f509cc10800000000000000
+      internalID: 2074195672137785187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 212
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7443e00082d2a14a0800000000000000
+      internalID: -6621930652272020409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 170
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1ecbfbff054d3d0800000000000000
+      internalID: -3182829977280388688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 223
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae718554345d7740800000000000000
+      internalID: 5151366132531297956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 191
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c895565bd08b83310800000000000000
+      internalID: 1385059254433831308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 171
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c39f3c3526cd3110800000000000000
+      internalID: 1242366935451014082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 190
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8714191ed5b7516a0800000000000000
+      internalID: -6479136845756022408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 196
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab966059d19a57c0800000000000000
+      internalID: -4081789749715100754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 173
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cf6d21d81199680800000000000000
+      internalID: -8747941503586337741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 187
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f8640448e8da780800000000000000
+      internalID: -8670117008953143501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abccd5b947acbf0d0800000000000000
+      internalID: -3387891692494533446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 167
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd8fba204ce739e0800000000000000
+      internalID: -1641583778813997615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9b553f3478986d0800000000000000
+      internalID: -2987708151868573219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 181
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b0c0a815b01c630800000000000000
+      internalID: 3945447193389566805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 119
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a968c2c3a97987ce0800000000000000
+      internalID: -1407208194862971238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 176
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6d1386390b60670800000000000000
+      internalID: 8504679093490538196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 219
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b3a49fefb7d400800000000000000
+      internalID: 348958531856348590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 167
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d251b29d2cc536e80800000000000000
+      internalID: -8186597705692539603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 170
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bb27c0ced115500800000000000000
+      internalID: 383120342961535901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 224
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39623e755578c9f0800000000000000
+      internalID: -447979152873461445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199a69754bd5b7b30800000000000000
+      internalID: 4286122499518146961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 220
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e4b23ffde815980800000000000000
+      internalID: -8551897124891308541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 175
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f444b9a9cac0d3c0800000000000000
+      internalID: -4336743473673386768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 186
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c280188d432f2260800000000000000
+      internalID: 7074912355524575942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 210
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fe77d417c200150800000000000000
+      internalID: 5836713982214795137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 195
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dee062297b1a170800000000000000
+      internalID: 8188027435867893009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_32
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 193
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9a1dc4fc85cfaf0800000000000000
+      internalID: -361316222726198847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_33
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 189
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de264895f3de0f2f0800000000000000
+      internalID: -940991465779862803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5b7150dd0a6d630800000000000000
+      internalID: 3951522594197845473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_35
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 180
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d9369faa44d4920800000000000000
+      internalID: 2976110429880950022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_36
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 174
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb66695b82d1046f0800000000000000
+      internalID: -702529481187367233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_37
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 212
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d50e595e0bbcce0800000000000000
+      internalID: -1383817960377787091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_38
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 205
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab5fd9093f1fb6a0800000000000000
+      internalID: -6431387413022549080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_39
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 189
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eac6dab7280bc030800000000000000
+      internalID: 3515912900824189671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_40
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 197
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b560727ceb53ca60800000000000000
+      internalID: 7693093659569317302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 207
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b69f48e876d9a1e0800000000000000
+      internalID: -2185980329329715534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 225
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14112d06584c6600800000000000000
+      internalID: 462824396136977438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_43
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 170
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3afc316bb1f69370800000000000000
+      internalID: 8329110347960875581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_44
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 198
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5ae0b04a570eeb0800000000000000
+      internalID: -4692621464299461167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_45
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 167
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1ea65993cd26b80800000000000000
+      internalID: -8402911814841867819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_46
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 224
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7310ba1140b25550800000000000000
+      internalID: 6148170234981258107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_47
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 195
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2c52c824fb941b0800000000000000
+      internalID: -5671791963156397378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_48
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 191
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286d167fbece13b00800000000000000
+      internalID: 806686306487883394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_49
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 169
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb9b492ce1f89990800000000000000
+      internalID: -7378881992839160882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_50
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 225
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cf6ad089e8c8a80800000000000000
+      internalID: -8463232816020784003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_51
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 194
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446ac7d8502705320800000000000000
+      internalID: 2544659157638489668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_52
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 216
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63813d22563a5db00800000000000000
+      internalID: 852767359227861046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_53
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 181
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f420ae1cd8bcbd890800000000000000
+      internalID: -7432122950340705713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_54
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 190
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a2d5b1e58e9a410800000000000000
+      internalID: 1488976642706319914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 169
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9b49dacd9397110800000000000000
+      internalID: 1259101190794557925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_56
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 183
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b10c79e63c325070800000000000000
+      internalID: 8093597686881321393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_57
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 167
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6562b262743da72e0800000000000000
+      internalID: -2127155571442637226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_58
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 195
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533085cce66bf95f0800000000000000
+      internalID: -747678426129235147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_59
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 133
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d111181db19cae020800000000000000
+      internalID: 2371929275080184093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_60
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 214
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7697f777cd79f0c50800000000000000
+      internalID: 6633687749293472103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_61
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 207
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5152d942bd0fa28f0800000000000000
+      internalID: -564373979278793451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_62
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 201
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a8d5e7e60d381b0800000000000000
+      internalID: -5655447534062171576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_63
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 198
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad7898a4b00a2620800000000000000
+      internalID: 2750011298385788322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_64
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 217
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d1ec634680e5830800000000000000
+      internalID: 4061693140443995520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_65
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 167
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82eebd689a1ab7b0800000000000000
+      internalID: -5207820777121979761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 172
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6999d811d021dcf0800000000000000
+      internalID: -229366023582017170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_67
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 194
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0503c293a531e1650800000000000000
+      internalID: 6205418614790303824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_68
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 169
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d87d4e9d11681b0800000000000000
+      internalID: -5654812654572171904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_69
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 200
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ec5a6117a28f150800000000000000
+      internalID: 5906517576496041559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_70
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 198
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd27ec4ee71fb8a20800000000000000
+      internalID: 3065809498662662877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_71
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 209
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bffcb2b0ceeb8fe0800000000000000
+      internalID: -1185591565482131536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_72
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 186
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eec55d4780300060800000000000000
+      internalID: 6917582385317269224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_73
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 173
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb14af429440a4200800000000000000
+      internalID: 164949048551948732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_74
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 204
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131f5fb8381641c80800000000000000
+      internalID: -8352944191248666319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_75
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 174
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b241f95a1a1d41ba0800000000000000
+      internalID: -6119035501491055573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_76
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 143
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c9afa0b59d7e630800000000000000
+      internalID: 3956369782717717660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_77
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 79
+        width: 250
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e7ca5ec9ecbf780800000000000000
+      internalID: -8648091486171398573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 219
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05c8eb8794bbdc0800000000000000
+      internalID: -3622220692347662149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_79
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 67
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3c62bc802e04620800000000000000
+      internalID: 2756451499346674665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_80
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 55
+        width: 248
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99928db3f95b6b20800000000000000
+      internalID: 3128693269530319262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_81
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 43
+        width: 216
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80b1d787996a26f0800000000000000
+      internalID: -708637891817787254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 29
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b43facc4fd7ebe0800000000000000
+      internalID: -1447943234260874416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_83
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 16
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f67b4c7785b9560800000000000000
+      internalID: 7321542890645581693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_84
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2fa5c7c5d34bcf0800000000000000
+      internalID: -237497412911172932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_mania_styled_dialogue_box_by_dogemayo_dbswnqa_85
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f28b669c5fb1b2e0800000000000000
+      internalID: -2111696345878527240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
