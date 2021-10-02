@@ -689,7 +689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94655ab3d164aa743a809b89dec6b787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactableDistance: 0
+  interactableDistance: 10
+  inventory: {fileID: 814184021}
 --- !u!1 &443671753
 GameObject:
   m_ObjectHideFlags: 0
@@ -5659,7 +5660,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.13
+  m_Intensity: 0.43
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}

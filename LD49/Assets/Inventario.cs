@@ -7,7 +7,7 @@ public class Inventario : MonoBehaviour
 {
     public Transform content;
     public List <GameObject> itens;
-    void AddItem(GameObject item)
+    public void AddItem(GameObject item)
     {
         itens.Add(item);
         DesenharItens();

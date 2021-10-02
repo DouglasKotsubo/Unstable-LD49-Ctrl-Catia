@@ -7,6 +7,7 @@ public class CollectScript : MonoBehaviour
     private Vector3 distance;
     private Transform player;
     public float interactableDistance;
+    public Inventario inventory;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class CollectScript : MonoBehaviour
     }
 
     private void CollectObject(){
-
+        inventory.AddItem(gameObject);
+        print("okk");
     }
 }
