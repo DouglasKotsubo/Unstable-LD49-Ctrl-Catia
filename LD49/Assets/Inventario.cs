@@ -53,10 +53,4 @@ public class Inventario : MonoBehaviour
         slotCounter++;
     }
 
-    void Update(){
-        if (Input.GetKeyDown(KeyCode.E)){
-            addItem(0);
-        }
-    }
-
 }

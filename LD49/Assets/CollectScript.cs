@@ -28,4 +28,16 @@ public class CollectScript : MonoBehaviour
     {
         inventory.AddItem(fuedase);
     }*/
+    public Inventario inv;
+    public float interactableDistance;
+    public Transform player;
+    public int identifier;
+    private Vector3 distance;
+    void Update(){
+        distance = player.position - transform.position;
+        if (distance.magnitude <= interactableDistance && Input.GetKeyDown(KeyCode.E)){
+            inv.addItem(identifier);
+            Destroy(gameObject);
+        }
+    }
 }
