@@ -3,18 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class Inventario : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Transform content;
+    public List <GameObject> itens;
+    void AddItem(GameObject item)
+    {
+        itens.Add(item);
+        DesenharItens();
+    }
+    void DesenharItens()
+    {
+        while (content.childCount < itens.Count)
+        {
+            GameObject item = Instantiate(itens[content.childCount], content.position, Quaternion.identity) as GameObject;
+            item.transform.parent = content.transform;
+        }
+    }
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        DesenharItens();
     }
 }
