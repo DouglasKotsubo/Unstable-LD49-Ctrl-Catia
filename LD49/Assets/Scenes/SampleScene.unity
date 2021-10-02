@@ -691,7 +691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableDistance: 10
   inventory: {fileID: 814184021}
-  item: {fileID: 261327969}
+  fuedase: {fileID: 0}
 --- !u!1 &443671753
 GameObject:
   m_ObjectHideFlags: 0

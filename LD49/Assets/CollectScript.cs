@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CollectScript : MonoBehaviour
 {
-    private Vector3 distance;
+    /*private Vector3 distance;
     private Transform player;
     public float interactableDistance;
     public Inventario inventory;
-    public GameObject item;
+    public GameObject fuedase;
 
     void Start()
     {
@@ -26,6 +26,6 @@ public class CollectScript : MonoBehaviour
 
     private void CollectObject()
     {
-        inventory.AddItem(gameObject);
-    }
+        inventory.AddItem(fuedase);
+    }*/
 }
