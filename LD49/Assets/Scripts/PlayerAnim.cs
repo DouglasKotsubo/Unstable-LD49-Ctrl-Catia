@@ -22,5 +22,15 @@ public class PlayerAnim : MonoBehaviour
             anim.SetBool("goingLeft", true);
         }
         else anim.SetBool("goingLeft", false);
+
+        if (Input.GetKey(KeyCode.W)){
+            anim.SetBool("goingUp", true);
+        }
+        else anim.SetBool("goingUp", false);
+
+        if (Input.GetKey(KeyCode.S)){
+            anim.SetBool("goingDown", true);
+        }
+        else anim.SetBool("goingDown", false);
     }
 }
