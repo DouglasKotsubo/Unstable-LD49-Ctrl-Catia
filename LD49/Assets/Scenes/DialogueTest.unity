@@ -294,8 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71be2892981ee434d859e9774a126124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogoTeste: {fileID: 1199427801}
-  manager: {fileID: 2048365350}
+  dialogos: {fileID: 1199427803}
+  manager: {fileID: 2048365352}
 --- !u!4 &1047402060
 Transform:
   m_ObjectHideFlags: 0
@@ -354,10 +354,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - No sey de nada
+  - irineu irineu iriney
   - Vaias se foader
   - test e 3
-  name: Menina
+  - adadaaaaaaaaaaaaaaaaaa
+  - dadsadwqrq3fwegwegwe
+  nome: oieee
   face: {fileID: 1681345387}
 --- !u!1 &1577277973
 GameObject:
@@ -393,7 +395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.04, y: 22.8}
+  m_AnchoredPosition: {x: -14.8, y: 22.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1577277975
@@ -923,10 +925,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 551bc3bf455041d40a14efa2e0852e8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faceBox: {fileID: 902715999}
   textBox: {fileID: 1597859970}
   face: {fileID: 1681345387}
   text: {fileID: 1601366448}
-  name: {fileID: 1577277975}
+  nome: {fileID: 1577277975}
+  Next: 
 --- !u!1 &2061859400
 GameObject:
   m_ObjectHideFlags: 0

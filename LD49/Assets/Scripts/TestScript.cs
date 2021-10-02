@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
-    public GameObject dialogoTeste;
-    public GameObject manager;
+    public DialogueClass dialogos;
+    public DialogueManager manager;
 
     void Start()
     {
-        manager.GetComponent<DialogueManager>().StartDialogue(dialogoTeste.GetComponent<DialogueClass>());
+        manager.StartDialogue(dialogos);
     }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)){
-            manager.GetComponent<DialogueManager>().ShowNextDialogue();
+            manager.ShowNextDialogue();
         }
     }
 }

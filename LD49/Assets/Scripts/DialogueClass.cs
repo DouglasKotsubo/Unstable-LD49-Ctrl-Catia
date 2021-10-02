@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
 public class DialogueClass : MonoBehaviour
 {
     [TextArea(3,10)]
     public string[] dialogues;
 
-    public string name;
+    public string nome;
     public Image face;
 
 }
