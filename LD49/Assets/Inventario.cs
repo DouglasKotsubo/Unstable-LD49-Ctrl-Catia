@@ -5,8 +5,13 @@ using UnityEngine.UI;
 
 public class Inventario : MonoBehaviour
 {
-    public Transform content;
+    public RectTransform content;
     public List <GameObject> itens;
+    public class item1
+    {
+        public string nome, descricao;
+        public SpriteRenderer imagem;
+    }
     public void AddItem(GameObject item)
     {
         itens.Add(item);
@@ -15,10 +20,10 @@ public class Inventario : MonoBehaviour
 
     public void DesenharItens()
     {
-        while (content.childCount < itens.Count)
+        if (content.childCount < itens.Count)
         {
-            GameObject item1 = Instantiate (itens[content.childCount], content.position, Quaternion.identity);
-            item1.transform.parent = content.transform;    
+             GameObject item2 = Instantiate (itens[content.childCount], content.position, Quaternion.identity) as GameObject;
+             item2.transform.parent = content.transform;
         }
     }
     void Start()
