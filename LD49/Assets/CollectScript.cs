@@ -8,10 +8,11 @@ public class CollectScript : MonoBehaviour
     private Transform player;
     public float interactableDistance;
     public Inventario inventory;
+    public GameObject item;
 
     void Start()
     {
-        player = GameObject.Find("Player").GetComponent<Transform>();    
+        player = GameObject.Find("Player").GetComponent<Transform>();  
     }
 
     // Update is called once per frame
@@ -23,8 +24,8 @@ public class CollectScript : MonoBehaviour
         }
     }
 
-    private void CollectObject(){
+    private void CollectObject()
+    {
         inventory.AddItem(gameObject);
-        print("okk");
     }
 }

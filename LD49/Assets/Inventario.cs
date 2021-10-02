@@ -12,16 +12,18 @@ public class Inventario : MonoBehaviour
         itens.Add(item);
         DesenharItens();
     }
-    void DesenharItens()
+
+    public void DesenharItens()
     {
         while (content.childCount < itens.Count)
         {
-            GameObject item = Instantiate(itens[content.childCount], content.position, Quaternion.identity) as GameObject;
-            item.transform.parent = content.transform;
+            GameObject item1 = Instantiate (itens[content.childCount], content.position, Quaternion.identity);
+            item1.transform.parent = content.transform;    
         }
     }
     void Start()
     {
         DesenharItens();
     }
+
 }
