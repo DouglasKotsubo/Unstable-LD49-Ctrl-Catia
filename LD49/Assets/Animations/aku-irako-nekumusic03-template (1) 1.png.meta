@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: 3f5ed87b1cbdfa449beef78bc8adc408
+guid: c48e084ccf31db340b6c67d1c1e5f78a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1983879563208932091
+    second: aku-irako-nekumusic03-template (1)_0
+  - first:
+      213: 878465725544587107
+    second: aku-irako-nekumusic03-template (1)_1
+  - first:
+      213: 3000348598471087529
+    second: aku-irako-nekumusic03-template (1)_2
+  - first:
+      213: -7745336576071393508
+    second: aku-irako-nekumusic03-template (1)_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: aku-irako-nekumusic03-template (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 85
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfab932a3f7288b10800000000000000
+      internalID: 1983879563208932091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aku-irako-nekumusic03-template (1)_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 153
+        width: 79
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fd07e4cefe03c00800000000000000
+      internalID: 878465725544587107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aku-irako-nekumusic03-template (1)_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 155
+        width: 84
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5d53e572163a920800000000000000
+      internalID: 3000348598471087529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aku-irako-nekumusic03-template (1)_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 79
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f9c6dab69038490800000000000000
+      internalID: -7745336576071393508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
