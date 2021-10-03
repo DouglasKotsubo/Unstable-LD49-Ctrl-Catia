@@ -20,6 +20,8 @@ public class DialogueManager : MonoBehaviour
     [HideInInspector]
     public string Next;
 
+    public Inventario inventory;
+
     public void StartDialogue(DialogueClass dial){
         EnableComponents();
         sentences = new Queue<string>();
@@ -72,5 +74,23 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(0.03f);
         }
         going = false;
+    }
+
+    //Inventario abaixo
+    public void InventoryMode(){
+        EnableComponents();
+        text.text = "";
+        nome.text = "";
+    }
+
+    public void ShowDescription(int index){
+        text.text = inventory.allItens[index].description;
+        nome.text =  inventory.allItens[index].nome;
+    }
+
+    public void CloseInventory(){
+        DisableComponents();
+        text.text = "";
+        nome.text = "";
     }
 }

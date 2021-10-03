@@ -24,6 +24,8 @@ public class Inventario : MonoBehaviour
     {
         DesenharItens();
     }*/
+    //Antigo código acima
+
     [System.Serializable]
     public struct element{
         public string nome;
@@ -38,19 +40,32 @@ public class Inventario : MonoBehaviour
 
     public element[] allItens;
     public Image[] itemSlots;
-
+    private int[] slotItemIndex;
     private int slotCounter = 0;
+    public DialogueManager manager;
 
+    void Start(){
+        slotItemIndex = new int[5];
+        int i;
+        for (i = 0; i < 5; i++) slotItemIndex[i] = -1;
+    }
     public void addItem(int itemIndex){
         element coletado = allItens[itemIndex];
         if (coletado.collected == true) return;
         
-        coletado.collected = true;
+        allItens[itemIndex].collected = true;
         itemSlots[slotCounter].sprite = coletado.imagem;
         RectTransform current = itemSlots[slotCounter].gameObject.GetComponent<RectTransform>();
         current.localScale = current.localScale * coletado.imageResizeScale;
         current.localPosition += coletado.imageOffset;
+        slotItemIndex[slotCounter] = slotCounter;
         slotCounter++;
+        
+    }
+
+    public void SlotDescription(int slotIndex){
+        if (slotItemIndex[slotIndex] == -1) return;
+        manager.ShowDescription(slotItemIndex[slotIndex]);
     }
 
 }
