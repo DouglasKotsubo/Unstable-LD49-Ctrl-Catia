@@ -63,10 +63,9 @@ public class Inventario : MonoBehaviour
         
     }
 
-    public int SlotDescription(int slotIndex){
-        if (slotItemIndex[slotIndex] == -1) return 0;
+    public void SlotDescription(int slotIndex){
+        if (slotItemIndex[slotIndex] == -1) return;
         manager.ShowDescription(slotItemIndex[slotIndex]);
-        return 1;
     }
 
 }

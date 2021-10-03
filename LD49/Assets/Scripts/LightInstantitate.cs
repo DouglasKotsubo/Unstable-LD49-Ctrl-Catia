@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LightInstantitate : MonoBehaviour
 {
-    public Inventario inventario;
+    /*public Inventario inventario;
     int invocar;
     public GameObject lanterna;
     public GameObject lanternaprefab;
@@ -22,5 +22,5 @@ public class LightInstantitate : MonoBehaviour
             lanterna = Instantiate(lanternaprefab);
             invocar = 1;
         }
-    }
+    }*/
 }
