@@ -1663,8 +1663,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - Where am I?
-  - ' I don''t recall getting in to this place...'
+  - 'Where am I?
+
+
+    Press E...'
+  - ' I don''t recall getting in to this place...
+
+
+    Press E...'
+  - "(Use WASD keys to move and E to interact) \n\nPress E..."
   nome: Menina
   face: {fileID: 40942876}
 --- !u!1 &1583308038 stripped
