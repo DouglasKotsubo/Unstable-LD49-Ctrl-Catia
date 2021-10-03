@@ -479,11 +479,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1008721197}
---- !u!1 &545543531 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8281046342655368549, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
-  m_PrefabInstance: {fileID: 8281046343477408332}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &819782606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,6 +1477,11 @@ MonoBehaviour:
   - ' I don''t recall getting in to this place...'
   nome: Menina
   face: {fileID: 40942876}
+--- !u!1 &1583308038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090472882817207283, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+  m_PrefabInstance: {fileID: 8281046343477408332}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1587582218
 GameObject:
   m_ObjectHideFlags: 0
@@ -4329,7 +4329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMotion: {fileID: 1008721199}
-  playerLight: {fileID: 545543531}
+  playerLight: {fileID: 1583308038}
   manager: {fileID: 173875565}
   door: {fileID: 1899073916}
   dialogoInicial: {fileID: 1504616387}
@@ -4461,6 +4461,78 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2090472882817207281, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1008721197}
+    - target: {fileID: 2090472882817207283, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368549, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368550, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368550, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_UseNormalMap
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368550, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368550, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_AlphaBlendOnOverlap
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368550, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_PointLightInnerAngle
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368550, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368550, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368550, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 11.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368551, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368551, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368551, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368551, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368551, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368551, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281046342655368551, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 8281046344351313761, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
       propertyPath: m_Name
       value: Player

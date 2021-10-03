@@ -3124,6 +3124,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7405955755925558148, guid: b5adc5cbfe6cd8648986f504d2eee9ed, type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 110
+      objectReference: {fileID: 0}
     - target: {fileID: 7405955755925558155, guid: b5adc5cbfe6cd8648986f504d2eee9ed, type: 3}
       propertyPath: Player
       value: 

@@ -24,6 +24,7 @@ public class Cena1Script : MonoBehaviour
     void Start()
     {
         manager.StartDialogue(dialogoInicial);
+        manager.ShowNextDialogue();
         playerMotion.freezed = true;
         
     }
