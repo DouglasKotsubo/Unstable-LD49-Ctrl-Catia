@@ -8,7 +8,6 @@ public class Cena1Script : MonoBehaviour
     public PlayerMove playerMotion;
     public GameObject playerLight, door;
     public DialogueManager manager;
-    public AudioSource doorS;
 
     [Header("Dialogos")]
     public DialogueClass dialogoInicial;
