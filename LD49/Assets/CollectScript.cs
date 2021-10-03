@@ -35,6 +35,7 @@ public class CollectScript : MonoBehaviour
     private Vector3 distance;
     void Update(){
         distance = player.position - transform.position;
+        print(distance.magnitude);
         if (distance.magnitude <= interactableDistance && Input.GetKeyDown(KeyCode.E)){
             inv.addItem(identifier);
             Destroy(gameObject);
