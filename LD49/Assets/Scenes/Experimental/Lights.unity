@@ -3148,8 +3148,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146008860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.75, y: 1.26, z: 0}
-  m_LocalScale: {x: 7, y: 5, z: 1}
+  m_LocalPosition: {x: -0.43, y: 1.18, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 45754723}
   m_RootOrder: 0
@@ -3173,7 +3173,7 @@ MonoBehaviour:
   m_Intensity: 0.8
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
-  m_LightCookieSprite: {fileID: 5435608014139152121, guid: 0cf8a0c2f4a9f924a92dd4cf8b213022, type: 3}
+  m_LightCookieSprite: {fileID: 2373183141213679312, guid: d63b937d903572b4b8549c3191c03d02, type: 3}
   m_UseNormalMap: 0
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
@@ -3208,4 +3208,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 2058393201}
-  distance: 3
+  distance: 0
