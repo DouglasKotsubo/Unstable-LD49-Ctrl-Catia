@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class Cena1Script : MonoBehaviour
 {
     public PlayerMove playerMotion;
-    public GameObject playerLight;
+    public GameObject playerLight, door;
     public DialogueManager manager;
-    public GameObject door;
+    public AudioSource doorS;
 
     [Header("Dialogos")]
     public DialogueClass dialogoInicial;
