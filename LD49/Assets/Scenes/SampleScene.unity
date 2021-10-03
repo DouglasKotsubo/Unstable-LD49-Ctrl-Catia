@@ -588,7 +588,7 @@ MonoBehaviour:
   name: FlashlightSound
   clip: {fileID: 8300000, guid: d14049d14bb1c5940804f6f788eea289, type: 3}
   volume: 1
-  pitch: 0
+  pitch: 0.5
   source: {fileID: 0}
 --- !u!1 &819782606
 GameObject:
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   name: DoorSound
   clip: {fileID: 8300000, guid: 43eb9e5c855a6004ea17fe3c540756b7, type: 3}
   volume: 1
-  pitch: 0
+  pitch: 0.5
   source: {fileID: 0}
 --- !u!1 &1504616385
 GameObject:
@@ -4571,7 +4571,7 @@ MonoBehaviour:
   name: AwakeSound
   clip: {fileID: 8300000, guid: 063362015186b734d86d8a06d2650527, type: 3}
   volume: 1
-  pitch: 0
+  pitch: 0.5
   source: {fileID: 0}
 --- !u!1 &1998588144
 GameObject:
