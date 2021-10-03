@@ -32,12 +32,12 @@ public class Lights1 : MonoBehaviour
         }
         transform.position = Player.transform.position;
         if (Input.GetKey("d"))
-        {transform.eulerAngles = new Vector3(0,0,0);}
-        if (Input.GetKey("a"))
-        {transform.eulerAngles = new Vector3(0,0,180);}
-        if (Input.GetKey("s"))
         {transform.eulerAngles = new Vector3(0,0,-90);}
-        if (Input.GetKey("w"))
+        if (Input.GetKey("a"))
         {transform.eulerAngles = new Vector3(0,0,90);}
+        if (Input.GetKey("s"))
+        {transform.eulerAngles = new Vector3(0,0,180);}
+        if (Input.GetKey("w"))
+        {transform.eulerAngles = new Vector3(0,0,0);}
     }
 }
