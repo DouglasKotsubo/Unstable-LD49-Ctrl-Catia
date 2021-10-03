@@ -94,6 +94,7 @@ public class Cena1Script : MonoBehaviour
                 Vector3 distancia = playerMotion.gameObject.GetComponent<Transform>().position - door.GetComponent<Transform>().position;
                 if (distancia.magnitude <= 1.5f){
                     SceneManager.LoadScene("Cena2");
+                    FindObjectOfType<AudioManager>().Send("DoorSound");
                 }
             }
         }

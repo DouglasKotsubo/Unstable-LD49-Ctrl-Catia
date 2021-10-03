@@ -360,7 +360,6 @@ Transform:
   - {fileID: 1998588145}
   - {fileID: 880696916}
   - {fileID: 2040553946}
-  - {fileID: 1332543540}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -586,8 +585,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb44c7443d2883d458174c317382f7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  volume: 0
+  name: FlashlightSound
+  clip: {fileID: 8300000, guid: d14049d14bb1c5940804f6f788eea289, type: 3}
+  volume: 1
   pitch: 0
   source: {fileID: 0}
 --- !u!1 &819782606
@@ -1691,15 +1691,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332543539}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.221011, y: 1.575416, z: -5.529121}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1983442693}
   - {fileID: 1463844445}
   - {fileID: 703222029}
-  m_Father: {fileID: 293631728}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1332543541
 MonoBehaviour:
@@ -1715,8 +1715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - {fileID: 1983442694}
-  - {fileID: 1983442694}
-  - {fileID: 1983442694}
+  - {fileID: 1463844446}
+  - {fileID: 703222030}
 --- !u!1 &1463844444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,8 +1760,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb44c7443d2883d458174c317382f7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  volume: 0
+  name: DoorSound
+  clip: {fileID: 8300000, guid: 43eb9e5c855a6004ea17fe3c540756b7, type: 3}
+  volume: 1
   pitch: 0
   source: {fileID: 0}
 --- !u!1 &1504616385
@@ -4567,8 +4568,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb44c7443d2883d458174c317382f7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  volume: 0
+  name: AwakeSound
+  clip: {fileID: 8300000, guid: 063362015186b734d86d8a06d2650527, type: 3}
+  volume: 1
   pitch: 0
   source: {fileID: 0}
 --- !u!1 &1998588144
@@ -5109,6 +5111,10 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1008721197}
+    - target: {fileID: 2090472882817207281, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
+      propertyPath: soundmanager
+      value: 
+      objectReference: {fileID: 1332543541}
     - target: {fileID: 2090472882817207283, guid: f0f113e741c83464d92649f0f99db5c5, type: 3}
       propertyPath: m_IsActive
       value: 0

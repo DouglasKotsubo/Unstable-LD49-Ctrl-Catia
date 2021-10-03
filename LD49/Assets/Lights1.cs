@@ -7,6 +7,7 @@ public class Lights1 : MonoBehaviour
 {
     public Light2D lights;
     public GameObject Player;
+
     public float value;
     Vector3 s0;
     // Start is called before the first frame update
@@ -29,6 +30,7 @@ public class Lights1 : MonoBehaviour
             {
                 lights.intensity = 0f;
             }
+            FindObjectOfType<AudioManager>().Send("FlashlightSound");
         }
         transform.position = Player.transform.position;
         if (Input.GetKey("d"))
