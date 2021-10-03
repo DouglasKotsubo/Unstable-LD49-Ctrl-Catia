@@ -201,6 +201,7 @@ MonoBehaviour:
   nome: {fileID: 5915818867230672816}
   going: 0
   Next: 
+  inventory: {fileID: 0}
 --- !u!1 &5915818867230672818
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,8 +440,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Teste de texto. texto de teste. teste de texto de teste
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 47567bdb2d27a4e448db062bac14c094, type: 2}
-  m_sharedMaterial: {fileID: -7183145440740283031, guid: 47567bdb2d27a4e448db062bac14c094, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cad9cee28ab71d740b3f4ff65b1387a5, type: 2}
+  m_sharedMaterial: {fileID: 1269457686392699505, guid: cad9cee28ab71d740b3f4ff65b1387a5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
