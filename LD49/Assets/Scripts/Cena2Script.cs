@@ -7,15 +7,15 @@ public class Cena2Script : MonoBehaviour
 {
     public PlayerMove playerMotion;
     public GameObject playerLight;
+    GameObject item = GameObject.Find("item");
+
     public DialogueManager manager;
     public GameObject door1, door2, door3;
 
     [Header("Dialogos")]
-    public DialogueClass dialogoInicial;
-
-    public DialogueClass dialogoDoor1;
-    public DialogueClass dialogoDoor2;
-    public DialogueClass dialogoDoor3;
+    public DialogueClass dialogoInicial, 
+    dialogoDoor3, dialogoDoor2, dialogoDoor1,
+    dialogoKey;
 
     private int progress = 0;
     private int count = 0;
@@ -92,6 +92,22 @@ public class Cena2Script : MonoBehaviour
                     playerMotion.freezed = false;
                     count = 0;
                 }
+            }
+            else if (item == null)
+            {
+                progress++;
+            }
+        }
+        else if (progress == 2)
+        {
+            if (!(manager.sentences.Count == 0 && !manager.going)){
+                manager.StartDialogue(dialogoKey);
+                manager.ShowNextDialogue();
+                playerMotion.freezed = true;
+            }
+            else if ((manager.sentences.Count == 0 && !manager.going)){
+                manager.ShowNextDialogue();
+                playerMotion.freezed = false;
             }
         }
     }

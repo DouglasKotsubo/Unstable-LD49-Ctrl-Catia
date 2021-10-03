@@ -519,6 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e5df2748770b64c8e2c379da8874d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 0}
   inventoryMenu: {fileID: 5618968831789785511}
 --- !u!114 &5618968831303874163
 MonoBehaviour:
@@ -546,6 +547,7 @@ MonoBehaviour:
   - {fileID: 5618968831429898555}
   - {fileID: 5618968831125306022}
   - {fileID: 5618968831598271205}
+  manager: {fileID: 0}
 --- !u!1 &5618968831429898502
 GameObject:
   m_ObjectHideFlags: 0

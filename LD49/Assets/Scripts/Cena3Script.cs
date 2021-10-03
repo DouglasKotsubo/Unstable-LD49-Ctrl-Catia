@@ -7,7 +7,6 @@ public class Cena3Script : MonoBehaviour
     public PlayerMove playerMotion;
     public GameObject playerLight, door;
     public DialogueManager manager;
-    public AudioSource doorS;
 
     [Header("Dialogos")]
     public DialogueClass dialogoInicial;
@@ -20,12 +19,27 @@ public class Cena3Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        manager.StartDialogue(dialogoInicial);
+        manager.ShowNextDialogue();
+        playerMotion.freezed = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (progress == 0){
+            if (Input.GetKeyDown(KeyCode.E) && !(manager.sentences.Count == 0 && !manager.going)){
+                manager.ShowNextDialogue();
+            }
+            else if (Input.GetKeyDown(KeyCode.E) && (manager.sentences.Count == 0 && !manager.going)){
+                manager.ShowNextDialogue();
+                progress++;
+                playerMotion.freezed = false;
+            }
+        }
+        else if (progress == 1)
+        {
+            
+        }
     }
 }

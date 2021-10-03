@@ -43,6 +43,7 @@ public class Inventario : MonoBehaviour
     private int[] slotItemIndex;
     private int slotCounter = 0;
     public DialogueManager manager;
+    public static Inventario instance;
 
     void Start(){
         slotItemIndex = new int[5];
