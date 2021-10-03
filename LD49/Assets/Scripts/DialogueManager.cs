@@ -11,9 +11,12 @@ public class DialogueManager : MonoBehaviour
     public Image face;
     public TextMeshProUGUI text;
     public TextMeshProUGUI nome;
-    private bool going = false;
+
+    [HideInInspector]
+    public bool going = false;
 
     public Queue<string> sentences;
+
     [HideInInspector]
     public string Next;
 
@@ -25,7 +28,6 @@ public class DialogueManager : MonoBehaviour
         foreach (string dialogue in dial.dialogues)
         {
             sentences.Enqueue(dialogue);
-            print("1");
         }
     }
 
@@ -67,7 +69,7 @@ public class DialogueManager : MonoBehaviour
         going = true;
         foreach (char c in texto.ToCharArray()){
             text.text += c;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.03f);
         }
         going = false;
     }

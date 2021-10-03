@@ -8,6 +8,9 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody2D rb;
     Vector3 direction;
 
+    [HideInInspector]
+    public bool freezed = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,6 +28,7 @@ public class PlayerMove : MonoBehaviour
     }
 
     void FixedUpdate(){
-        rb.velocity = direction * speed * Time.fixedDeltaTime;
+        if (!freezed) rb.velocity = direction * speed * Time.fixedDeltaTime;
+        else rb.velocity = Vector3.zero;
     }
 }
