@@ -1683,6 +1683,7 @@ Transform:
   - {fileID: 703222029}
   - {fileID: 1949026672}
   - {fileID: 725535672}
+  - {fileID: 2074917074}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1704,6 +1705,7 @@ MonoBehaviour:
   - {fileID: 703222030}
   - {fileID: 1949026673}
   - {fileID: 725535673}
+  - {fileID: 2074917073}
 --- !u!1 &1463844444
 GameObject:
   m_ObjectHideFlags: 0
@@ -4702,6 +4704,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2074917072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2074917074}
+  - component: {fileID: 2074917073}
+  m_Layer: 0
+  m_Name: UnlockSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2074917073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074917072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb44c7443d2883d458174c317382f7d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: 
+  clip: {fileID: 8300000, guid: ac64972f92f5a7e46be333c7e1e14857, type: 3}
+  volume: 1
+  pitch: 2
+  source: {fileID: 0}
+--- !u!4 &2074917074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074917072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1332543540}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2093149494
 GameObject:

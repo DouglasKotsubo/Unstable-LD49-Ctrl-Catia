@@ -18,7 +18,7 @@ public class Cena2Script : MonoBehaviour
     [Header("Dialogos")]
     public DialogueClass dialogoInicial, 
     dialogoDoor3, dialogoDoor2, dialogoDoor1,
-    dialogoKey;
+    dialogoKey, dialogoUnlock;
 
     private int progress = 0;
     private int count = 0;
@@ -145,9 +145,22 @@ public class Cena2Script : MonoBehaviour
             }
             else if (distancia2.magnitude <= 1.5f && Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadScene("Cena3");
-                FindObjectOfType<AudioManager>().Send("DoorSound");
-
+                if (count == 0)
+                {
+                    FindObjectOfType<AudioManager>().Send("UnlockSound");
+                    manager.StartDialogue(dialogoUnlock);
+                    count++;
+                }
+                if (!(manager.sentences.Count == 0 && !manager.going)){
+                    manager.ShowNextDialogue();
+                    playerMotion.freezed = true;
+                }
+                else if ((manager.sentences.Count == 0 && !manager.going)){
+                    manager.ShowNextDialogue();
+                    playerMotion.freezed = false;
+                    FindObjectOfType<AudioManager>().Send("DoorSound");
+                    SceneManager.LoadScene("Cena3");
+                }
             }
             else if (distancia3.magnitude <= 1.5f && Input.GetKeyDown(KeyCode.E))
             {
