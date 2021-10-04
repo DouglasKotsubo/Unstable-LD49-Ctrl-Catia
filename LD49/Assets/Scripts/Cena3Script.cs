@@ -7,6 +7,7 @@ public class Cena3Script : MonoBehaviour
     public PlayerMove playerMotion;
     public GameObject playerLight;
     public DialogueManager manager;
+    public Vector3 s0;
 
     [Header("Dialogos")]
     public DialogueClass dialogoInicial;
@@ -86,6 +87,7 @@ public class Cena3Script : MonoBehaviour
         }
         else if (progress == 5){
             StartCoroutine(FuckBackground());
+            Instantiate(spirafodase, s0, Quaternion.identity);
             progress++;
         }
     }

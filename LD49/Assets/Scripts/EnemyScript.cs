@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class EnemyScript : MonoBehaviour
 {
@@ -10,7 +12,7 @@ public class EnemyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
@@ -19,5 +21,8 @@ public class EnemyScript : MonoBehaviour
         diff = player.transform.position - transform.position;
         transform.position += diff * vel * Time.deltaTime / diff.magnitude;
     }
-    
+    void OnTriggerEnter2D (Collider2D enemy)
+    {
+        SceneManager.LoadScene("Ending");
+    }
 }
