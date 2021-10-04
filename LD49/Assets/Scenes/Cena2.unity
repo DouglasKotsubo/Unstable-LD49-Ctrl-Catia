@@ -180,7 +180,7 @@ MonoBehaviour:
   dialogues:
   - A key covered in blood?
   - Nevermind, it's just ketchup. Lol
-  nome: Menina
+  nome: Alva
   face: {fileID: 598270538}
 --- !u!1001 &210982668
 PrefabInstance:
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - I dont want to go back.
-  nome: Menina
+  nome: Alva
   face: {fileID: 598270538}
 --- !u!1 &450296847
 GameObject:
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - I need to find a way out.
-  nome: Menina
+  nome: Alva
   face: {fileID: 598270538}
 --- !u!1001 &458636799
 PrefabInstance:
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   dialogues:
   - This door is Locked.
   - Maybe there is a key somewere...
-  nome: Menina
+  nome: Alva
   face: {fileID: 598270538}
 --- !u!1001 &1271161604
 PrefabInstance:
@@ -5338,7 +5338,7 @@ MonoBehaviour:
   dialogues:
   - ...
   - Its unlocked...
-  nome: Menina
+  nome: Alvass
   face: {fileID: 598270538}
 --- !u!1 &1742806395
 GameObject:
@@ -6236,7 +6236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - ...
-  nome: Menina
+  nome: Alva
   face: {fileID: 598270538}
 --- !u!1 &2010193735
 GameObject:

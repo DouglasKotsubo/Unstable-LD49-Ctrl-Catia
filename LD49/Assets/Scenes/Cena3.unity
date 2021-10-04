@@ -229,7 +229,7 @@ MonoBehaviour:
   - 'Wait, there''s actually a piece of paper with some handwriting in it:'
   - '"Take a look inside of the boxes" - Ctrl and Catia'
   - Okay, it's not like I had a better idea anyways...
-  nome: Menina
+  nome: Alva
   face: {fileID: 1920065287}
 --- !u!1 &225394103
 GameObject:
@@ -1400,7 +1400,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1492,7 +1492,7 @@ MonoBehaviour:
   dialogues:
   - ...
   - What the...
-  nome: Menina
+  nome: Alva
   face: {fileID: 1920065287}
 --- !u!1 &548294904
 GameObject:
@@ -1983,7 +1983,7 @@ MonoBehaviour:
   - 'I wonder if is there something that can help me find my way out.
 
 '
-  nome: Menina
+  nome: Alva
   face: {fileID: 1920065287}
 --- !u!1 &1212211424
 GameObject:

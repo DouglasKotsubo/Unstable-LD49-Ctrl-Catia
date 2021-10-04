@@ -792,9 +792,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - WHAT THE HECK??
-  - What happened here? I almost had a heart attack.
-  nome: Menina
+  - What was that??
+  - Is this supposed to be a prank or what?
+  - Not funny...
+  nome: Alva
   face: {fileID: 40942876}
 --- !u!1 &920101713
 GameObject:
@@ -1900,7 +1901,7 @@ MonoBehaviour:
   dialogues:
   - Where am I?
   - I don't recall getting in to this place...
-  nome: Menina
+  nome: Alva
   face: {fileID: 40942876}
 --- !u!1 &1583308038 stripped
 GameObject:
@@ -5317,6 +5318,10 @@ PrefabInstance:
       propertyPath: face
       value: 
       objectReference: {fileID: 40942876}
+    - target: {fileID: 8701944898766175273, guid: 7c7ca547b38ed9a46827cd89864ac5c5, type: 3}
+      propertyPath: nome
+      value: Alva
+      objectReference: {fileID: 0}
     - target: {fileID: 8701944898766175273, guid: 7c7ca547b38ed9a46827cd89864ac5c5, type: 3}
       propertyPath: dialogues.Array.data[2]
       value: (Press F to toggle the lights on/off )
