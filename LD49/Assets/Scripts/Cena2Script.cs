@@ -184,6 +184,7 @@ public class Cena2Script : MonoBehaviour
 
     IEnumerator ApplyTextures(){
         yield return new WaitForSeconds(2);
+        FindObjectOfType<AudioManager>().Send("Boo2");
         st.ScaryMaterial(tileMap1, 1);
         st.ScaryPostProcessing();
         progress++;
