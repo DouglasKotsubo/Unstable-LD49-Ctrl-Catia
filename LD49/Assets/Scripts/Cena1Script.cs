@@ -107,6 +107,7 @@ public class Cena1Script : MonoBehaviour
             st.ScaryMaterial(obj, 1);
         }
         st.ScaryPostProcessing();
+        FindObjectOfType<AudioManager>().Send("Boo");
         yield return new WaitForSeconds(1.5f);
         foreach (GameObject obj in tilemaps){
             st.NormalMaterial(obj);
