@@ -19,7 +19,7 @@ public class Cena3Script : MonoBehaviour
     public GameObject background;
 
     [Header("Scene")]
-    public GameObject trashCan;
+    public GameObject trashCan, spirafodase;
     public Transform boxesCoords;
 
     private int progress = 0;
