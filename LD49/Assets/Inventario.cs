@@ -39,6 +39,13 @@ public class Inventario : MonoBehaviour
             int i;
             for (i = 1; i < 5; i++) slotItemIndex[i] = -1;
         }
+        else if (SceneManager.GetActiveScene().name == "Cena3"){
+            AddFlashlight(); AddKey();
+            slotItemIndex[0] = 0;
+            slotItemIndex[1] = 1;
+            int i;
+            for (i = 2; i < 5; i++) slotItemIndex[i] = -1;
+        }
     }
     public void AddFlashlight(){
         element coletado = allItens[0];
