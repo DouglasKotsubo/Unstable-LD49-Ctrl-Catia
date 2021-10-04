@@ -1490,6 +1490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
+  - ...
   - What the...
   nome: Menina
   face: {fileID: 1920065287}
