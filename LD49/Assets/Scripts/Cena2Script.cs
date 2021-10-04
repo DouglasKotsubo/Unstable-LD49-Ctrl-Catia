@@ -99,11 +99,11 @@ public class Cena2Script : MonoBehaviour
             }
             else if (item == null)
             {
-                progress++;
-            }
+                progress++;            }
         }
         else if (progress == 2)
         {
+            FindObjectOfType<AudioManager>().Send("KeySound");
             manager.StartDialogue(dialogoKey);
             manager.ShowNextDialogue();
             playerMotion.freezed = true;
