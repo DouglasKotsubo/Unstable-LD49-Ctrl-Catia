@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
 
     [HideInInspector]
     public bool freezed = false;
+    private float stepCounter = 0;
 
     void Start()
     {
@@ -25,6 +26,13 @@ public class PlayerMove : MonoBehaviour
         else if (Input.GetKey(KeyCode.W)) direction = Vector3.up;
         else if (Input.GetKey(KeyCode.S)) direction = Vector3.down;
         else direction = Vector3.zero;
+        if (direction != Vector3.zero){
+            if (stepCounter >= 0.4f){
+                FindObjectOfType<AudioManager>().Send("FootstepSound");
+                stepCounter = 0;
+            } 
+            stepCounter += Time.deltaTime;
+        }
     }
 
     void FixedUpdate(){

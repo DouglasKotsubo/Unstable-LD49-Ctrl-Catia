@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class InventoryClass : MonoBehaviour
 {
-    public string name;
+    public string nome;
     public int index;
     [TextArea (3,10)]
     public string description;

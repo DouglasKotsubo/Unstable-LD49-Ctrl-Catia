@@ -8,6 +8,7 @@ public class Cena1Script : MonoBehaviour
     public PlayerMove playerMotion;
     public GameObject playerLight, door;
     public DialogueManager manager;
+    public Animator startFade;
 
     [Header("Dialogos")]
     public DialogueClass dialogoInicial;
@@ -18,12 +19,11 @@ public class Cena1Script : MonoBehaviour
     public ScaryTexturing st;
     public GameObject[] tilemaps;
 
-    private int progress = 0;
+    private int progress = -1;
 
     void Start()
     {
-        manager.StartDialogue(dialogoInicial);
-        manager.ShowNextDialogue();
+        StartCoroutine(Initialize());
         playerMotion.freezed = true;
         
     }
@@ -49,6 +49,7 @@ public class Cena1Script : MonoBehaviour
             }
         }
         else if (progress == 2){
+            startFade.gameObject.SetActive(false); //Disable Overlaying canvas
             playerMotion.freezed = true;
             manager.StartDialogue(flashlightDialogue);
             manager.ShowNextDialogue();
@@ -111,6 +112,14 @@ public class Cena1Script : MonoBehaviour
             st.NormalMaterial(obj);
         }
         yield return new WaitForSeconds(1);
+        progress++;
+    }
+
+    IEnumerator Initialize(){
+        yield return new WaitForSeconds(1);
+        manager.StartDialogue(dialogoInicial);
+        manager.ShowNextDialogue();
+        startFade.SetTrigger("go");
         progress++;
     }
 }

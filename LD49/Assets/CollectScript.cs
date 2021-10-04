@@ -35,10 +35,16 @@ public class CollectScript : MonoBehaviour
     private Vector3 distance;
     void Update(){
         distance = player.position - transform.position;
-        print(distance.magnitude);
+        //print(distance.magnitude);
         if (distance.magnitude <= interactableDistance && Input.GetKeyDown(KeyCode.E)){
-            inv.addItem(identifier);
-            Destroy(gameObject);
+            if (this.name == "flashlight"){
+                inv.AddFlashlight();
+                Destroy(gameObject);
+            }
+            if (this.name == "item"){
+                inv.AddKey();
+                Destroy(gameObject);
+            }
         }
     }
 }

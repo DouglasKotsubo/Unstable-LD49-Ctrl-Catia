@@ -7,10 +7,13 @@ public class Cena2Script : MonoBehaviour
 {
     public PlayerMove playerMotion;
     public GameObject playerLight;
-    GameObject item = GameObject.Find("item");
+    GameObject item;
 
     public DialogueManager manager;
     public GameObject door1, door2, door3;
+
+    public GameObject tileMap1;
+    public ScaryTexturing st;
 
     [Header("Dialogos")]
     public DialogueClass dialogoInicial, 
@@ -23,6 +26,7 @@ public class Cena2Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        item = GameObject.Find("item");
         manager.StartDialogue(dialogoInicial);
         manager.ShowNextDialogue();
         playerMotion.freezed = true;
@@ -100,15 +104,73 @@ public class Cena2Script : MonoBehaviour
         }
         else if (progress == 2)
         {
-            if (!(manager.sentences.Count == 0 && !manager.going)){
-                manager.StartDialogue(dialogoKey);
+            manager.StartDialogue(dialogoKey);
+            manager.ShowNextDialogue();
+            playerMotion.freezed = true;
+            progress++;
+        }
+        else if (progress == 3){
+            if (Input.GetKeyDown(KeyCode.E) && !(manager.sentences.Count == 0 && !manager.going)){
                 manager.ShowNextDialogue();
-                playerMotion.freezed = true;
             }
-            else if ((manager.sentences.Count == 0 && !manager.going)){
+            else if (Input.GetKeyDown(KeyCode.E) && (manager.sentences.Count == 0 && !manager.going)){
                 manager.ShowNextDialogue();
+                progress++;
                 playerMotion.freezed = false;
             }
         }
+        else if (progress == 4){
+            StartCoroutine(ApplyTextures());
+            progress++;
+        }
+        else if (progress == 6){
+            Vector3 distancia1 = playerMotion.gameObject.GetComponent<Transform>().position - door1.GetComponent<Transform>().position;
+            Vector3 distancia2 = playerMotion.gameObject.GetComponent<Transform>().position - door2.GetComponent<Transform>().position;
+            Vector3 distancia3 = playerMotion.gameObject.GetComponent<Transform>().position - door3.GetComponent<Transform>().position;
+            if (distancia1.magnitude <= 1.5f && Input.GetKeyDown(KeyCode.E))
+            {
+                if (count == 0){
+                    manager.StartDialogue(dialogoDoor1);
+                    count++;
+                }
+                if (!(manager.sentences.Count == 0 && !manager.going)){
+                    manager.ShowNextDialogue();
+                    playerMotion.freezed = true;
+                }
+                else if ((manager.sentences.Count == 0 && !manager.going)){
+                    manager.ShowNextDialogue();
+                    playerMotion.freezed = false;
+                    count = 0;
+                }
+            }
+            else if (distancia2.magnitude <= 1.5f && Input.GetKeyDown(KeyCode.E))
+            {
+                SceneManager.LoadScene("Cena3");
+            }
+            else if (distancia3.magnitude <= 1.5f && Input.GetKeyDown(KeyCode.E))
+            {
+                if (count == 0){
+                    manager.StartDialogue(dialogoDoor3);
+                    count++;
+                }
+                if (!(manager.sentences.Count == 0 && !manager.going)){
+                    manager.ShowNextDialogue();
+                    playerMotion.freezed = true;
+                }
+                else if ((manager.sentences.Count == 0 && !manager.going)){
+                    manager.ShowNextDialogue();
+                    playerMotion.freezed = false;
+                    count = 0;
+                }
+            }
+        }
+            
+    }
+
+    IEnumerator ApplyTextures(){
+        yield return new WaitForSeconds(2);
+        st.ScaryMaterial(tileMap1, 1);
+        st.ScaryPostProcessing();
+        progress++;
     }
 }
