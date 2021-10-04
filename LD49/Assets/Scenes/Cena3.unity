@@ -2726,7 +2726,7 @@ MonoBehaviour:
   manager: {fileID: 1009649571}
   dialogoInicial: {fileID: 1207276585}
   dialogoLixo: {fileID: 76644565}
-  dialogoCaixas: {fileID: 0}
+  dialogoCaixas: {fileID: 545165312}
   st: {fileID: 1624183209}
   tilemaps: []
   background: {fileID: 1197880181}
