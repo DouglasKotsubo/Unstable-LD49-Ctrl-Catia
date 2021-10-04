@@ -146,6 +146,8 @@ public class Cena2Script : MonoBehaviour
             else if (distancia2.magnitude <= 1.5f && Input.GetKeyDown(KeyCode.E))
             {
                 SceneManager.LoadScene("Cena3");
+                FindObjectOfType<AudioManager>().Send("DoorSound");
+
             }
             else if (distancia3.magnitude <= 1.5f && Input.GetKeyDown(KeyCode.E))
             {

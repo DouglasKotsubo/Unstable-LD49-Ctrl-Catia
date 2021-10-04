@@ -1388,6 +1388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - This door is Locked.
+  - Maybe there is a key somewere...
   nome: Menina
   face: {fileID: 598270538}
 --- !u!1001 &1271161604

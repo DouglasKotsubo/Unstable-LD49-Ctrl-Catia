@@ -25,7 +25,7 @@ public class Cena1Script : MonoBehaviour
     {
         StartCoroutine(Initialize());
         playerMotion.freezed = true;
-        
+        FindObjectOfType<AudioManager>().Send("AwakeSound");
     }
 
     // Update is called once per frame
