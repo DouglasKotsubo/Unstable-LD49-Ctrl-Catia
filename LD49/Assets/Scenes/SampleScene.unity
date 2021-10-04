@@ -460,6 +460,54 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5778721680280024679, guid: c882e79e9367192458085cf102558613, type: 3}
   m_PrefabInstance: {fileID: 818024193740626075}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &517596531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 517596532}
+  - component: {fileID: 517596533}
+  m_Layer: 0
+  m_Name: Boo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &517596532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517596531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1332543540}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &517596533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517596531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb44c7443d2883d458174c317382f7d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: 
+  clip: {fileID: 8300000, guid: 68728c205f2e39d45bbcc6eaa366fc7f, type: 3}
+  volume: 0.672
+  pitch: 0.78
+  source: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,7 +1730,11 @@ Transform:
   - {fileID: 1463844445}
   - {fileID: 703222029}
   - {fileID: 1949026672}
+<<<<<<< Updated upstream
   - {fileID: 725535672}
+=======
+  - {fileID: 517596532}
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1703,7 +1755,11 @@ MonoBehaviour:
   - {fileID: 1463844446}
   - {fileID: 703222030}
   - {fileID: 1949026673}
+<<<<<<< Updated upstream
   - {fileID: 725535673}
+=======
+  - {fileID: 517596533}
+>>>>>>> Stashed changes
 --- !u!1 &1463844444
 GameObject:
   m_ObjectHideFlags: 0
