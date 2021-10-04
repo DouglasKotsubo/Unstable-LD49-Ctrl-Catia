@@ -84,7 +84,7 @@ public class Cena3Script : MonoBehaviour
                 playerMotion.freezed = false;
             }
         }
-        else if (progress == 4){
+        else if (progress == 5){
             StartCoroutine(FuckBackground());
             progress++;
         }
