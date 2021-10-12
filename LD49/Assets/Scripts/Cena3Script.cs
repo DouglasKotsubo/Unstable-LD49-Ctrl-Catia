@@ -94,6 +94,7 @@ public class Cena3Script : MonoBehaviour
 
     IEnumerator FuckBackground(){
         yield return new WaitForSeconds(1);
+        FindObjectOfType<AudioManager>().Send("Boo2");
         st.ScaryMaterial(background, 1);
         st.ScaryPostProcessing();
     }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cena3.unity
     guid: da0f2d8e4f766f34faf84440645d332e
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 93650b2b7fac68f49a34b3081fdb470d
   m_configObjects: {}

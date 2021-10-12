@@ -5338,7 +5338,7 @@ MonoBehaviour:
   dialogues:
   - ...
   - Its unlocked...
-  nome: Alvass
+  nome: Alva
   face: {fileID: 598270538}
 --- !u!1 &1742806395
 GameObject:
